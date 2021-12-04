@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+    <fragment
+        class="com.example.fragment_20211204.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:tag="첫번째 프래그먼트" />
 
 </LinearLayout>
