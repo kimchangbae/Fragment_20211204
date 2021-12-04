@@ -5,12 +5,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <fragment
         class="com.example.fragment_20211204.FirstFragment"
         android:layout_width="match_parent"
-        android:layout_height="244dp"
+        android:layout_height="wrap_content"
         android:tag="첫번째 프래그먼트" />
+
+    <fragment
+        class="com.example.fragment_20211204.SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:tag="두번째 프래그먼트" />
+
+    <fragment
+        class="com.example.fragment_20211204.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="first 프래그먼트" />
 
 </LinearLayout>
